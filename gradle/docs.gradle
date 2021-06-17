@@ -62,6 +62,8 @@ task api(type: Javadoc) {
 //	moduleName = "spring-framework"
 //	outputFormat = "html"
 //	outputDirectory = "$buildDir/docs/kdoc"
+//	//添加 忽略错误
+//	noStdlibLink = true
 //
 //	sourceDirs = files(subprojects.collect { project ->
 //		def kotlinDirs = project.sourceSets.main.kotlin.srcDirs.collect()
