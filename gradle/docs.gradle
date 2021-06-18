@@ -49,7 +49,7 @@ task api(type: Javadoc) {
 		classpath += files(subprojects.collect { it.sourceSets.main.compileClasspath })
 	}
 }
-// 注释掉 以免报错
+// 注释掉 以免报错；网络情况良好时可以取消注释
 //dokka {
 //	dependsOn {
 //		tasks.getByName("api")
